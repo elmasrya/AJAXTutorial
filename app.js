@@ -11,7 +11,7 @@ function ajaxPost () {
   // Create some variables we need to send to our PHP file
   //firstly, we need to send to a url or files, in this case a php file
   //secondly, we need to send values to that url or file
-    var url = "http://127.0.0.1:8887/my_parse_file.php";
+    var url = "my_parse_file.php";
 
     //These are the values that we are sending
     //fn for first name
@@ -39,7 +39,7 @@ function ajaxPost () {
         }
 
           console.log('trying')
-      
+
       }
 
       // Send the data to PHP now... and wait for response to update the status div
